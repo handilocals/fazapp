@@ -1,0 +1,42 @@
+                     face_recognition_app/
+│
+├── src/
+│   ├── main.py
+│   ├── controllers/
+│   │   ├── __init__.py
+│   │   ├── home_controller.py
+│   │   ├── settings_controller.py
+│   │   ├── register_controller.py
+│   │   ├── gallery_controller.py
+│   │   ├── detect_controller.py
+│   │   └── recognize_controller.py
+│   │
+│   ├── models/
+│   │   ├── __init__.py
+│   │   ├── face_recognition_model.py
+│   │   └── database_model.py
+│   │
+│   ├── views/
+│   │   ├── __init__.py
+│   │   ├── main_window.py
+│   │   ├── home_view.py
+│   │   ├── settings_view.py
+│   │   ├── register_view.py
+│   │   ├── gallery_view.py
+│   │   ├── detect_view.py
+│   │   └── recognize_view.py
+│   │
+│   └── utils/
+│       ├── __init__.py
+│       └── image_processing.py
+│
+├── resources/
+│   ├── images/
+│   │   └── app_logo.png
+│   └── styles/
+│       └── main_style.qss
+│
+├── data/
+│   └── registered_faces/
+│
+└── requirements.txt
